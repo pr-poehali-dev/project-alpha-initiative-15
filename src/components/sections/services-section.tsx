@@ -17,29 +17,29 @@ export function ServicesSection() {
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Услуги
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Комплексное предложение</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Колеровочные пасты",
+              description: "Поставки паст Color Jazz в банках 4 л и промышленной таре. Светостойкие пигменты, срок хранения — от 2 лет",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Оборудование",
+              description: "Ручные и автоматические микс-стойки для колеровочных центров и производств. Подбор, монтаж и пуско-наладка",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "ПО KVIL Color",
+              description: "Собственный софт для управления рецептурами, цветами и расчётами. Регулярные обновления и консультации",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Private Label",
+              description: "Выпуск паст под вашей торговой маркой. Сертификаты госрегистрации, паспорта качества на каждую партию",
               direction: "bottom",
             },
           ].map((service, i) => (
